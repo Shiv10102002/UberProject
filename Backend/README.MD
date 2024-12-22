@@ -2,7 +2,8 @@
 
 ## Endpoints
 
-### POST /api/v1/users/register
+<details>
+<summary>### POST /api/v1/users/register</summary>
 
 #### Description
 This endpoint is used to register a new user.
@@ -73,13 +74,13 @@ Response Body:
 }
 ```
 
-
 ### Internal Server Error (500 Internal Server Error)
 Status Code: 500
 Response Body:
 
 ```json
 {
-  "message": "Internal Server Error"
+"message": "Internal Server Error"
 }
 ```
+</details>
