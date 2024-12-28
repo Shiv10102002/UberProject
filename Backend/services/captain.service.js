@@ -1,7 +1,4 @@
 const captainModel = require('../models/captain.model');
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
-const { validationResult} = require('express-validator');
 
 module.exports.createCaptain = async ({firstname, lastname, email,password,color,plate,capacity,vehicleType}) => {
     if(!firstname || !email || !password|| !color|| !plate|| !capacity|| !vehicleType){
